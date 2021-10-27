@@ -8,15 +8,20 @@ uses
 
 type
   TForm2 = class(TForm)
-    BitBtn1: TBitBtn;
-    BitBtn3: TBitBtn;
-    BitBtn4: TBitBtn;
-    BitBtn5: TBitBtn;
     Label1: TLabel;
     BitBtn6: TBitBtn;
     Image1: TImage;
-    BitBtn2: TBitBtn;
+    Image2: TImage;
+    SpeedButton1: TSpeedButton;
+    AltaUsuario: TSpeedButton;
+    SpeedButton2: TSpeedButton;
+    SpeedButton3: TSpeedButton;
+    SpeedButton4: TSpeedButton;
+    Panel1: TPanel;
+    Panel2: TPanel;
+    BitBtn1: TBitBtn;
     procedure BitBtn6Click(Sender: TObject);
+    procedure AltaUsuarioClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -28,7 +33,7 @@ var
 
 implementation
 
-uses Unit1;
+uses Unit1, Ussers;
 
 {$R *.dfm}
 
@@ -36,6 +41,13 @@ procedure TForm2.BitBtn6Click(Sender: TObject);
 begin
 form1.show;
 form2.Hide;
+end;
+
+
+
+procedure TForm2.AltaUsuarioClick(Sender: TObject);
+begin
+form5.show;
 end;
 
 end.

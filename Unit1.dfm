@@ -1,8 +1,8 @@
 object Form1: TForm1
-  Left = 284
-  Top = 197
+  Left = 289
+  Top = 181
   Width = 1314
-  Height = 756
+  Height = 600
   BorderIcons = []
   Caption = 'Fritter'
   Color = clBlack
@@ -5661,6 +5661,7 @@ object Form1: TForm1
     7FFFFFFFFFFFFFFFFFFFFFFFFFE0FFFFFFFFFFFFFC000001FFFFFFFFFFFFFFFF
     FFFFFFFFFFE0}
   OldCreateOrder = False
+  OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
   object Image1: TImage
