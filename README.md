@@ -30,9 +30,9 @@ Imágenes del Programa
 Pantalla de Inicio
 
 IMAGENES
-![Imagen 1](img/Prototipo/1.png)
-![Imagen 2](img/Prototipo/2.png)
-![Imagen 3](img/Prototipo/3.png)
+![Imagen 1](/Img/Prototipo/1.png)
+![Imagen 2](/Img/Prototipo/2.png)
+![Imagen 3](/Img/Prototipo/3.png)
 
 Tecnologías Utilizadas
 Lenguaje de Programación: Pascal.
