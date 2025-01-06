@@ -1,4 +1,4 @@
-#Churros El Topo - Sistema de Gestión Empresarial
+# Churros El Topo - Sistema de Gestión Empresarial
 
 ### Descripción  
 "Churros El Topo" es una empresa familiar que previamente gestionaba todas sus actividades de manera manual, utilizando lápiz y papel. Este programa automatiza y organiza sus operaciones, ofreciendo una solución completa para la gestión del negocio.
