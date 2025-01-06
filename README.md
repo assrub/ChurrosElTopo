@@ -38,7 +38,7 @@
 ![Imagen 2](/Img/Prototipo/2.png)
 ![Imagen 3](/Img/Prototipo/3.png)
 
-###Tecnologías Utilizadas
+### Tecnologías Utilizadas
 - Lenguaje de Programación: Pascal.
 - Base de Datos: Archivos (txt).
 - Otras Herramientas: Borland Delphi.
