@@ -1,10 +1,10 @@
 object Form5: TForm5
-  Left = 1035
-  Top = 237
+  Left = 379
+  Top = 35
   BorderIcons = [biSystemMenu]
   BorderStyle = bsDialog
   Caption = 'Administraci'#243'n de Usuarios'
-  ClientHeight = 608
+  ClientHeight = 671
   ClientWidth = 529
   Color = clBlack
   Font.Charset = DEFAULT_CHARSET
@@ -13,6 +13,7 @@ object Form5: TForm5
   Font.Name = 'MS Sans Serif'
   Font.Style = []
   OldCreateOrder = False
+  Position = poDesktopCenter
   OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
@@ -214,7 +215,6 @@ object Form5: TForm5
       MaxLength = 32
       ParentFont = False
       TabOrder = 2
-      OnExit = Edit2Exit
     end
     object Edit3: TEdit
       Left = 160
@@ -229,7 +229,6 @@ object Form5: TForm5
       MaxLength = 12
       ParentFont = False
       TabOrder = 3
-      OnExit = Edit3Exit
       OnKeyPress = Edit3KeyPress
     end
     object Edit4: TEdit
@@ -246,7 +245,6 @@ object Form5: TForm5
       ParentFont = False
       PasswordChar = '*'
       TabOrder = 4
-      OnExit = Edit4Exit
     end
     object Edit5: TEdit
       Left = 160
@@ -262,7 +260,6 @@ object Form5: TForm5
       ParentFont = False
       PasswordChar = '*'
       TabOrder = 5
-      OnExit = Edit5Exit
     end
     object RichEdit1: TRichEdit
       Left = 160
@@ -283,6 +280,7 @@ object Form5: TForm5
       Top = 42
       Width = 57
       Height = 37
+      Cursor = crHandPoint
       TabOrder = 1
       OnClick = BitBtn1Click
       Glyph.Data = {
@@ -413,12 +411,22 @@ object Form5: TForm5
         C000C0C0C000C0C0C000C0C0C000C0C0C000C0C0C000C0C0C000C0C0C000C0C0
         C000C0C0C000C0C0C000C0C0C000C0C0C000}
     end
+    object BitBtn6: TBitBtn
+      Left = 432
+      Top = 42
+      Width = 57
+      Height = 37
+      Cursor = crHandPoint
+      TabOrder = 7
+      OnClick = BitBtn6Click
+      Kind = bkAll
+    end
   end
   object GroupBox2: TGroupBox
     Left = 16
     Top = 456
     Width = 497
-    Height = 57
+    Height = 121
     Caption = 'Perfil del Usuario'
     Ctl3D = False
     Font.Charset = DEFAULT_CHARSET
@@ -429,28 +437,67 @@ object Form5: TForm5
     ParentCtl3D = False
     ParentFont = False
     TabOrder = 1
-    object RadioButton1: TRadioButton
-      Left = 160
-      Top = 24
-      Width = 113
+    object CheckBox1: TCheckBox
+      Left = 8
+      Top = 32
+      Width = 185
       Height = 17
-      Caption = 'Operador'
+      Cursor = crHandPoint
+      Caption = 'Acceso a Alta de Usuarios'
       TabOrder = 0
     end
-    object RadioButton2: TRadioButton
-      Left = 312
-      Top = 24
-      Width = 113
+    object CheckBox2: TCheckBox
+      Left = 8
+      Top = 56
+      Width = 161
       Height = 17
-      Caption = 'Administrador'
+      Cursor = crHandPoint
+      Caption = 'Acceso a Gastos'
       TabOrder = 1
+    end
+    object CheckBox3: TCheckBox
+      Left = 8
+      Top = 80
+      Width = 161
+      Height = 17
+      Cursor = crHandPoint
+      Caption = 'Acceso a Ventas'
+      TabOrder = 2
+    end
+    object CheckBox4: TCheckBox
+      Left = 240
+      Top = 32
+      Width = 249
+      Height = 17
+      Cursor = crHandPoint
+      Caption = 'Acceso a Modificar Precios Productos'
+      TabOrder = 3
+    end
+    object CheckBox5: TCheckBox
+      Left = 240
+      Top = 56
+      Width = 161
+      Height = 17
+      Cursor = crHandPoint
+      Caption = 'Acceso a Historial'
+      TabOrder = 4
+    end
+    object CheckBox6: TCheckBox
+      Left = 240
+      Top = 80
+      Width = 161
+      Height = 17
+      Cursor = crHandPoint
+      Caption = 'Acceso a Status'
+      TabOrder = 5
     end
   end
   object BitBtn2: TBitBtn
     Left = 24
-    Top = 528
+    Top = 592
     Width = 97
     Height = 65
+    Cursor = crHandPoint
     TabOrder = 2
     OnClick = BitBtn2Click
     Glyph.Data = {
@@ -1247,9 +1294,10 @@ object Form5: TForm5
   end
   object BitBtn3: TBitBtn
     Left = 160
-    Top = 528
+    Top = 592
     Width = 97
     Height = 65
+    Cursor = crHandPoint
     TabOrder = 3
     OnClick = BitBtn3Click
     Glyph.Data = {
@@ -2046,9 +2094,10 @@ object Form5: TForm5
   end
   object BitBtn4: TBitBtn
     Left = 280
-    Top = 528
+    Top = 592
     Width = 97
     Height = 65
+    Cursor = crHandPoint
     TabOrder = 4
     OnClick = BitBtn4Click
     Glyph.Data = {
@@ -2845,9 +2894,10 @@ object Form5: TForm5
   end
   object BitBtn5: TBitBtn
     Left = 408
-    Top = 528
+    Top = 592
     Width = 97
     Height = 65
+    Cursor = crHandPoint
     TabOrder = 5
     OnClick = BitBtn5Click
     Glyph.Data = {

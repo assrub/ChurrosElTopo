@@ -1,10 +1,11 @@
 object Form1: TForm1
-  Left = 289
-  Top = 181
-  Width = 1314
-  Height = 600
+  Left = 266
+  Top = 100
   BorderIcons = []
+  BorderStyle = bsDialog
   Caption = 'Fritter'
+  ClientHeight = 584
+  ClientWidth = 850
   Color = clBlack
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -5661,12 +5662,13 @@ object Form1: TForm1
     7FFFFFFFFFFFFFFFFFFFFFFFFFE0FFFFFFFFFFFFFC000001FFFFFFFFFFFFFFFF
     FFFFFFFFFFE0}
   OldCreateOrder = False
+  Position = poDesktopCenter
   OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
   object Image1: TImage
-    Left = 344
-    Top = 136
+    Left = 64
+    Top = 48
     Width = 649
     Height = 489
     Picture.Data = {
@@ -6069,9 +6071,9 @@ object Form1: TForm1
       366C55D9B366C55D9B366C55D9B366C55D9B366C55D9B366C55D9B366C55FFD9}
   end
   object Label1: TLabel
-    Left = 520
-    Top = 368
-    Width = 97
+    Left = 240
+    Top = 280
+    Width = 92
     Height = 24
     Caption = 'USUARIO'
     Color = clBlack
@@ -6084,9 +6086,9 @@ object Form1: TForm1
     ParentFont = False
   end
   object Label2: TLabel
-    Left = 512
-    Top = 440
-    Width = 121
+    Left = 232
+    Top = 352
+    Width = 120
     Height = 24
     Caption = 'PASSWORD'
     Color = clBlack
@@ -6099,23 +6101,39 @@ object Form1: TForm1
     ParentFont = False
   end
   object USER: TEdit
-    Left = 736
-    Top = 368
+    Left = 456
+    Top = 280
     Width = 137
-    Height = 21
+    Height = 31
+    Cursor = crIBeam
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Lambola'
+    Font.Style = []
+    MaxLength = 12
+    ParentFont = False
     TabOrder = 0
   end
   object PASSWORD: TEdit
-    Left = 736
-    Top = 440
+    Left = 456
+    Top = 352
     Width = 137
-    Height = 21
+    Height = 31
+    Cursor = crIBeam
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Lambola'
+    Font.Style = []
+    MaxLength = 12
+    ParentFont = False
     PasswordChar = '*'
     TabOrder = 1
   end
   object BitBtn1: TBitBtn
-    Left = 536
-    Top = 512
+    Left = 256
+    Top = 424
     Width = 121
     Height = 41
     Cursor = crHandPoint
@@ -6125,13 +6143,19 @@ object Form1: TForm1
     Kind = bkYes
   end
   object BitBtn2: TBitBtn
-    Left = 744
-    Top = 512
+    Left = 464
+    Top = 424
     Width = 121
     Height = 41
+    Cursor = crHandPoint
     Caption = '&Salir'
     TabOrder = 3
     Kind = bkClose
     Layout = blGlyphRight
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 752
+    Top = 40
   end
 end

@@ -1,0 +1,1673 @@
+object Form6: TForm6
+  Left = 275
+  Top = 23
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsDialog
+  Caption = 'STATUS'
+  ClientHeight = 739
+  ClientWidth = 982
+  Color = clMaroon
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 8
+    Top = 7
+    Width = 513
+    Height = 722
+    Color = clCream
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 8
+      Top = 8
+      Width = 158
+      Height = 22
+      Caption = 'VENTAS DEL D'#205'A'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clRed
+      Font.Height = -19
+      Font.Name = 'Lambola'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = 24
+      Top = 622
+      Width = 382
+      Height = 13
+      Caption = 
+        'VENTAS DEL D'#205'A..................................................' +
+        '................................................'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label3: TLabel
+      Left = 24
+      Top = 654
+      Width = 383
+      Height = 13
+      Caption = 
+        'VENTAS DE LA SEMANA.............................................' +
+        '.........................................'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label4: TLabel
+      Left = 24
+      Top = 686
+      Width = 384
+      Height = 13
+      Caption = 
+        'VENTAS DEL MES..................................................' +
+        '...............................................'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object StringGrid1: TStringGrid
+      Left = 8
+      Top = 33
+      Width = 497
+      Height = 576
+      Color = clInfoBk
+      ColCount = 4
+      FixedCols = 0
+      RowCount = 2
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ScrollBars = ssVertical
+      TabOrder = 0
+      ColWidths = (
+        88
+        107
+        179
+        113)
+    end
+    object Edit1: TEdit
+      Left = 415
+      Top = 615
+      Width = 85
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 1
+    end
+    object Edit2: TEdit
+      Left = 415
+      Top = 647
+      Width = 85
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 2
+    end
+    object Edit51: TEdit
+      Left = 415
+      Top = 679
+      Width = 85
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 3
+    end
+  end
+  object TPanel
+    Left = 536
+    Top = 7
+    Width = 433
+    Height = 234
+    Color = clCream
+    TabOrder = 1
+    object Label5: TLabel
+      Left = 8
+      Top = 8
+      Width = 37
+      Height = 22
+      Caption = ' D'#205'A'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clRed
+      Font.Height = -19
+      Font.Name = 'Lambola'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Label6: TLabel
+      Left = 88
+      Top = 38
+      Width = 135
+      Height = 13
+      Caption = 'CHURROS...........................'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label7: TLabel
+      Left = 318
+      Top = 30
+      Width = 6
+      Height = 13
+      Caption = '$'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label8: TLabel
+      Left = 88
+      Top = 62
+      Width = 134
+      Height = 13
+      Caption = 'CUBANITOS........................'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label10: TLabel
+      Left = 88
+      Top = 85
+      Width = 134
+      Height = 13
+      Caption = 'DONAS................................'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label12: TLabel
+      Left = 88
+      Top = 109
+      Width = 133
+      Height = 13
+      Caption = 'BERLINESAS......................'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label14: TLabel
+      Left = 88
+      Top = 134
+      Width = 135
+      Height = 13
+      Caption = 'TORTAFRITAS....................'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label16: TLabel
+      Left = 88
+      Top = 158
+      Width = 134
+      Height = 13
+      Caption = 'CHIPA..................................'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label18: TLabel
+      Left = 88
+      Top = 182
+      Width = 135
+      Height = 13
+      Caption = 'PASTELITOS.......................'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label9: TLabel
+      Left = 318
+      Top = 54
+      Width = 6
+      Height = 13
+      Caption = '$'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label11: TLabel
+      Left = 318
+      Top = 77
+      Width = 6
+      Height = 13
+      Caption = '$'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label13: TLabel
+      Left = 318
+      Top = 101
+      Width = 6
+      Height = 13
+      Caption = '$'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label15: TLabel
+      Left = 318
+      Top = 126
+      Width = 6
+      Height = 13
+      Caption = '$'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label17: TLabel
+      Left = 318
+      Top = 150
+      Width = 6
+      Height = 13
+      Caption = '$'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label19: TLabel
+      Left = 318
+      Top = 174
+      Width = 6
+      Height = 13
+      Caption = '$'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Image1: TImage
+      Left = 8
+      Top = 35
+      Width = 73
+      Height = 17
+      Picture.Data = {
+        07544269746D61709A130000424D9A1300000000000036000000280000004900
+        000011000000010020000000000064130000C30E0000C30E0000000000000000
+        0000FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00F8FAFC00FFFFFF00FFFFFF00FFFFFF00FFFFFF00F9FBFC00FFFFFF00FFFF
+        FF00FAFBFC00FEFFFF00FFFFFF00FFFFFF00FFFFFF00FBFBFC00FEFFFF00FFFF
+        FF00FEFDFE00FAFCFD00FFFFFF00FFFFFF00FFFFFF00FFFDFD00F9FDFD00FFFF
+        FF00FFFFFF00F8FBFC00FFFFFF00FFFFFF00FFFFFF00FFFFFF00F8FBFC00FFFF
+        FF00FFFFFF00FBFBFD00FDFFFF00FFFFFF00FFFFFF00FFFFFF00FCFBFC00FDFF
+        FF00FEFEFE00FDFDFD00FAFBFC00FCFEFE00FFFFFF00FFFFFF00FFFFFF00FCF9
+        FB00FDFEFE00FFFFFF00FFFEFE00F8FAFC00FFFFFF00FCFBFA00FFFFFF00FFFC
+        FD00F8FCFD00FFFFFF00FFFFFF00FBFCFD00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FCFCFD00FEFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00B8BBDC00A4CDE800FFFFFE00FCF1F70095B1DA00C3E0F000FFFF
+        FF00FFFFFF00E1D9EA008FB5DB00E7F4FA00FFFDFD00BDC8E30098BFE000FDFF
+        FF00FFFFFF00FBF6F9009AAED600C2E1F200FFFFFF00E6E2F00084ADD800E4F5
+        FA00FFFFFF00FFFFFF00C1C2DF009DC8E500FBFDFE00FFF5F9009AB4DB00B7D7
+        EC00FFFFFF00FFFFFF00E9E1EF008FB4DA00DFF0F800FFFEFE00C6CDE50090B8
+        DD00FBFFFF00FFFEFE00FDFDFD00E8DEEC008BAFD700DAEEF700FFFEFE00C3CD
+        E6008CB8DD00FAFEFF00FFFFFF00FEFCFD00A3B2D800B1D8EC00FFFAF900EBE5
+        EF0085ACD700DAEFF700FFFFFF00FFFFFF00DCD5E80096BADD00EEF8FB00FFFE
+        FD00C0C8E3009CC3E200FDFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00DFD8EB0045BEE50074BEE20063C4E70040BCE400ECF6
+        FA00FFFFFF00FFFFFF00FCF0F60075C0E3004FC1E60085C2E4002ABBE600AFD9
+        EE00FFFFFF00FFFFFF00FFFEFE00B4CAE4003CC2E80088BDE10045C2E8006AC2
+        E500FEFFFF00FFFFFF00FFFFFF00E8DFED004BC0E5006CBFE3006DC5E70036B8
+        E300E0EFF800FFFFFF00FFFFFF00FEF5F80082C1E20048C1E60087C1E2002DBC
+        E600A0D5EC00FFFFFF00FFFFFF00FDFEFD00FDF2F60088C5E40044C2E70083C0
+        E2002BBDE700A0D4EC00FFFFFF00FFFFFF00FFFFFF00C5D0E70039C2E8007DBC
+        E10058C4E50066C1E200FBFEFE00FFFFFF00FFFFFF00FAEDF4006BBFE20058C0
+        E6008BC4E4002DB8E400B3DBEF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFE9F20063CCEB0017E4FC001BDFFB0072BE
+        E300FFFFFF00FFFFFF00FFFFFF00FFFFFF00A8C5E2001FE3FD0019E4FD003ABF
+        E700E3EEF600FFFFFF00FFFFFF00FFFFFF00E2D3E7003AD7F40018E3FB001FD2
+        F400A6D0E900FFFFFF00FFFFFF00FFFFFF00FFEDF50070C8E70017E4FC0017E2
+        FD0064BEE300FFFFFF00FFFFFF00FFFFFF00FFFFFF00B5C7E20024E2FB0019E5
+        FC0033C2E900DBE8F300FFFFFF00FFFEFE00FDFDFD00FFFFFD00B5C5E10023E1
+        FC0019E5FD0032C3EA00D4E6F200FFFFFF00FFFFFF00FFFFFF00EBD8E90045D3
+        F10017E5FC001FD7F6009CC8E300FFFFFC00FFFFFE00FFFFFF00FFFFFE00A1C7
+        E3001CE2FC0019E2FC003EC2E900EBF3F800FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00E8E9F30088C4E40030E0F80026EAFF0023EA
+        FF002CCAEE0085CAE800EBF9FC00F9F7FB00B2CDE70045D2F00025EBFF0024EA
+        FF0022D8F6005CC0E500CFEBF600FDFDFE00D5DBED0066C7E80028E7FD0025E9
+        FF0021E5FD003BC1E700A7D9EE00F8FDFE00EEEDF60091C6E50033DDF70025EA
+        FF0022EAFF002BCDEF007DC8E700E6F6FB00FBF9FC00B9CEE7004BCFEE0026EB
+        FF0027EAFF0022DBF80054BFE400C8E8F400FDFFFE00F8F6F800B5CBE4004ACF
+        ED0026EAFF0024EAFF0020DDF9004CBEE400C1E4F200FBFDFE00D8DDED006EC6
+        E7002AE5FC0025E9FF0020E7FF0034C3E9009BCEE600F2FBFD00FBF8FB00B4CD
+        E70044D2EF0024EAFF0024EBFF0025D6F50067C2E500D8F0F800FEFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00F9F5F8009BA9D40082C1E2008AC6E4003CE4
+        FB0034CCEF006AC5E60068ABD800B3CAE400C4C3E0007EB3DB008EC8E4005BD6
+        F00023DCF9005EC0E40067BAE1008BAFD800D7D8EA0089A8D40088C8E5007ACA
+        E70027E6FD0048C3E80069C4E50071A5D500CCD8EB00A6B0D50080BFE0008CC6
+        E40043E1F9002FD0F1006AC4E60068AEDB00A9C4E200C9C8E2007EAFD9008CC8
+        E50062D2EE0023DFFB005BC1E50067BDE20081A8D400EDF8FB00D1C8E20081AF
+        DA0094C9E50069D3ED0022DFFB005FC0E5006FBEE40087ACD700D7DBEB0092A9
+        D4008CC6E50086C6E4002EE6FC0044C4E90071C4E60074A7D600CADBEC00C4C2
+        E00079B2DC0088C9E60055D9F30025DBF9005AC3E70060B7E10089AED800F4FA
+        FC00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FCFCFD00FFFDFE00FFFAFC00FDE5
+        F0006BC6E60071C4E600FFF9FB00FFFCFD00FFFEFE00FEFDFE00FFFCFD00FFF6
+        FA00ADCAE50047C6E800EBE8F100FFFAFA00FFFEFE00FEFDFE00FFFDFD00FFF9
+        FC00E6D8EA0044C5E800A9D1E900FFFAFC00FFFDFD00FFFDFD00F8F6F600FDF6
+        F700FFE9F20078C7E60062C2E500FFF7FA00FFFCFD00FFFEFE00FEFDFE00FFFC
+        FD00FFF8FB00BACDE6003BC1E700DFE5F200FFFAFB00FFF9F900FCFCFC00FFFF
+        FF00FFFEFE00FFFAFC00C2D0E7003FC1E700DEE5F200FFFDFD00FFFFFF00FFFE
+        FF00FFFFFF00FFFBFD00F1DDEC004FC3E60099CDE900FFFBFD00FFFEFE00FFFF
+        FF00FCFBFD00FFF9FC00FFF3F800A5CBE50041C1E700ECE9F300FFF9FB00FFFB
+        FC00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00F7F7F700FDFDFC00FFFF
+        FF00FFFEFE00A6B0D700B4DAEE00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00D8D1E6008FB4DA00FBFEFD00FCFBFB00FDFDFD00FFFFFF00FFFF
+        FF00FFFFFF00FAF1F70086A4D200DAF2F900FFFFFF00FFFFFF00FFFFFF00FEFE
+        FE00F9F9F900FFFDFB00AEB6DA00A8D1EA00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00E0DAEB0085AFD900FAFFFF00FDFCFC00FDFDFD00FCFC
+        FC00FFFFFF00FFFFFF00FFFFFF00E1D9EB0088AED700F9FEFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFF9FB0091A8D400D1EBF600FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00D0CCE40089B7DD00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FBFBFB00F8F8
+        F800FCFCFC00FFFFFF00E9E4F000F5F7FA00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00F7F2F800E7E7F000FDFDFD00FDFDFD00FAFAFA00FEFE
+        FE00FFFFFF00FFFFFF00FFFEFE00E5DFEE00FCFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FEFEFE00FAFBF900E7E1EC00F1F3F800FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00F8F5F900E7E5F100FFFFFF00FBFBFC00FBFB
+        FB00FDFDFD00FDFDFD00FEFEFE00FFFFFF00F9F7FA00EAE7F200FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00E9E3F000FBFDFE00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00F4EFF700E7E8F300FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00}
+    end
+    object Label50: TLabel
+      Left = 318
+      Top = 206
+      Width = 6
+      Height = 13
+      Caption = '$'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label51: TLabel
+      Left = 88
+      Top = 210
+      Width = 35
+      Height = 13
+      Caption = 'TOTAL'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Edit3: TEdit
+      Left = 223
+      Top = 29
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 0
+    end
+    object Edit4: TEdit
+      Left = 335
+      Top = 29
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 1
+    end
+    object Edit5: TEdit
+      Left = 223
+      Top = 53
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 2
+    end
+    object Edit6: TEdit
+      Left = 335
+      Top = 53
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 3
+    end
+    object Edit7: TEdit
+      Left = 223
+      Top = 77
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 4
+    end
+    object Edit8: TEdit
+      Left = 335
+      Top = 77
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 5
+    end
+    object Edit9: TEdit
+      Left = 223
+      Top = 101
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 6
+    end
+    object Edit10: TEdit
+      Left = 335
+      Top = 101
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 7
+    end
+    object Edit11: TEdit
+      Left = 223
+      Top = 125
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 8
+    end
+    object Edit12: TEdit
+      Left = 335
+      Top = 125
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 9
+    end
+    object Edit13: TEdit
+      Left = 223
+      Top = 149
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 10
+    end
+    object Edit14: TEdit
+      Left = 335
+      Top = 149
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 11
+    end
+    object Edit15: TEdit
+      Left = 223
+      Top = 173
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 12
+    end
+    object Edit16: TEdit
+      Left = 335
+      Top = 173
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 13
+    end
+    object Edit45: TEdit
+      Left = 223
+      Top = 205
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 14
+    end
+    object Edit46: TEdit
+      Left = 335
+      Top = 205
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 15
+    end
+  end
+  object TPanel
+    Left = 536
+    Top = 247
+    Width = 433
+    Height = 234
+    Color = clCream
+    TabOrder = 2
+    object Label20: TLabel
+      Left = 8
+      Top = 8
+      Width = 75
+      Height = 22
+      Caption = 'Semana'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clRed
+      Font.Height = -19
+      Font.Name = 'Lambola'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Label21: TLabel
+      Left = 88
+      Top = 38
+      Width = 135
+      Height = 13
+      Caption = 'CHURROS...........................'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label22: TLabel
+      Left = 318
+      Top = 30
+      Width = 6
+      Height = 13
+      Caption = '$'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label23: TLabel
+      Left = 88
+      Top = 62
+      Width = 134
+      Height = 13
+      Caption = 'CUBANITOS........................'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label24: TLabel
+      Left = 88
+      Top = 85
+      Width = 134
+      Height = 13
+      Caption = 'DONAS................................'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label25: TLabel
+      Left = 88
+      Top = 109
+      Width = 133
+      Height = 13
+      Caption = 'BERLINESAS......................'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label26: TLabel
+      Left = 88
+      Top = 134
+      Width = 135
+      Height = 13
+      Caption = 'TORTAFRITAS....................'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label27: TLabel
+      Left = 88
+      Top = 158
+      Width = 134
+      Height = 13
+      Caption = 'CHIPA..................................'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label28: TLabel
+      Left = 88
+      Top = 182
+      Width = 135
+      Height = 13
+      Caption = 'PASTELITOS.......................'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label29: TLabel
+      Left = 318
+      Top = 54
+      Width = 6
+      Height = 13
+      Caption = '$'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label30: TLabel
+      Left = 318
+      Top = 77
+      Width = 6
+      Height = 13
+      Caption = '$'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label31: TLabel
+      Left = 318
+      Top = 101
+      Width = 6
+      Height = 13
+      Caption = '$'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label32: TLabel
+      Left = 318
+      Top = 126
+      Width = 6
+      Height = 13
+      Caption = '$'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label33: TLabel
+      Left = 318
+      Top = 150
+      Width = 6
+      Height = 13
+      Caption = '$'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label34: TLabel
+      Left = 318
+      Top = 174
+      Width = 6
+      Height = 13
+      Caption = '$'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label52: TLabel
+      Left = 88
+      Top = 210
+      Width = 35
+      Height = 13
+      Caption = 'TOTAL'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label53: TLabel
+      Left = 318
+      Top = 206
+      Width = 6
+      Height = 13
+      Caption = '$'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Edit17: TEdit
+      Left = 223
+      Top = 29
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 0
+    end
+    object Edit18: TEdit
+      Left = 335
+      Top = 29
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 1
+    end
+    object Edit19: TEdit
+      Left = 223
+      Top = 53
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 2
+    end
+    object Edit20: TEdit
+      Left = 335
+      Top = 53
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 3
+    end
+    object Edit21: TEdit
+      Left = 223
+      Top = 77
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 4
+    end
+    object Edit22: TEdit
+      Left = 335
+      Top = 77
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 5
+    end
+    object Edit23: TEdit
+      Left = 223
+      Top = 101
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 6
+    end
+    object Edit24: TEdit
+      Left = 335
+      Top = 101
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 7
+    end
+    object Edit25: TEdit
+      Left = 223
+      Top = 125
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 8
+    end
+    object Edit26: TEdit
+      Left = 335
+      Top = 125
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 9
+    end
+    object Edit27: TEdit
+      Left = 223
+      Top = 149
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 10
+    end
+    object Edit28: TEdit
+      Left = 335
+      Top = 149
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 11
+    end
+    object Edit29: TEdit
+      Left = 223
+      Top = 173
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 12
+    end
+    object Edit30: TEdit
+      Left = 335
+      Top = 173
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 13
+    end
+    object Edit47: TEdit
+      Left = 223
+      Top = 205
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 14
+    end
+    object Edit48: TEdit
+      Left = 335
+      Top = 205
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 15
+    end
+  end
+  object TPanel
+    Left = 536
+    Top = 495
+    Width = 433
+    Height = 234
+    Color = clCream
+    TabOrder = 3
+    object Label35: TLabel
+      Left = 8
+      Top = 8
+      Width = 39
+      Height = 22
+      Caption = 'Mes'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clRed
+      Font.Height = -19
+      Font.Name = 'Lambola'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Label36: TLabel
+      Left = 88
+      Top = 38
+      Width = 135
+      Height = 13
+      Caption = 'CHURROS...........................'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label37: TLabel
+      Left = 318
+      Top = 30
+      Width = 6
+      Height = 13
+      Caption = '$'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label38: TLabel
+      Left = 88
+      Top = 62
+      Width = 134
+      Height = 13
+      Caption = 'CUBANITOS........................'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label39: TLabel
+      Left = 88
+      Top = 85
+      Width = 134
+      Height = 13
+      Caption = 'DONAS................................'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label40: TLabel
+      Left = 88
+      Top = 109
+      Width = 133
+      Height = 13
+      Caption = 'BERLINESAS......................'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label41: TLabel
+      Left = 88
+      Top = 134
+      Width = 135
+      Height = 13
+      Caption = 'TORTAFRITAS....................'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label42: TLabel
+      Left = 88
+      Top = 158
+      Width = 134
+      Height = 13
+      Caption = 'CHIPA..................................'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label43: TLabel
+      Left = 88
+      Top = 182
+      Width = 135
+      Height = 13
+      Caption = 'PASTELITOS.......................'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label44: TLabel
+      Left = 318
+      Top = 54
+      Width = 6
+      Height = 13
+      Caption = '$'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label45: TLabel
+      Left = 318
+      Top = 77
+      Width = 6
+      Height = 13
+      Caption = '$'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label46: TLabel
+      Left = 318
+      Top = 101
+      Width = 6
+      Height = 13
+      Caption = '$'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label47: TLabel
+      Left = 318
+      Top = 126
+      Width = 6
+      Height = 13
+      Caption = '$'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label48: TLabel
+      Left = 318
+      Top = 150
+      Width = 6
+      Height = 13
+      Caption = '$'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label49: TLabel
+      Left = 318
+      Top = 174
+      Width = 6
+      Height = 13
+      Caption = '$'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label54: TLabel
+      Left = 88
+      Top = 210
+      Width = 35
+      Height = 13
+      Caption = 'TOTAL'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label55: TLabel
+      Left = 318
+      Top = 206
+      Width = 6
+      Height = 13
+      Caption = '$'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Edit31: TEdit
+      Left = 223
+      Top = 29
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 0
+    end
+    object Edit32: TEdit
+      Left = 335
+      Top = 29
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 1
+    end
+    object Edit33: TEdit
+      Left = 223
+      Top = 53
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 2
+    end
+    object Edit34: TEdit
+      Left = 335
+      Top = 53
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 3
+    end
+    object Edit35: TEdit
+      Left = 223
+      Top = 77
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 4
+    end
+    object Edit36: TEdit
+      Left = 335
+      Top = 77
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 5
+    end
+    object Edit37: TEdit
+      Left = 223
+      Top = 101
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 6
+    end
+    object Edit38: TEdit
+      Left = 335
+      Top = 101
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 7
+    end
+    object Edit39: TEdit
+      Left = 223
+      Top = 125
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 8
+    end
+    object Edit40: TEdit
+      Left = 335
+      Top = 125
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 9
+    end
+    object Edit41: TEdit
+      Left = 223
+      Top = 149
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 10
+    end
+    object Edit42: TEdit
+      Left = 335
+      Top = 149
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 11
+    end
+    object Edit43: TEdit
+      Left = 223
+      Top = 173
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 12
+    end
+    object Edit44: TEdit
+      Left = 335
+      Top = 173
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 13
+    end
+    object Edit49: TEdit
+      Left = 223
+      Top = 205
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 14
+    end
+    object Edit50: TEdit
+      Left = 335
+      Top = 205
+      Width = 80
+      Height = 21
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 15
+    end
+  end
+end

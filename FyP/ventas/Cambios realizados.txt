@@ -1,0 +1,6 @@
+1º cambio --> FyP_Ventas = fypVentas
+2º cambio --> LibreriaVentas = archivosVentas
+3º cambio --> registrochurros = registroVentas
+4º cambio --> se creo la libreria vectorVentas
+
+

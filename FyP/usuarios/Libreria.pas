@@ -33,15 +33,15 @@ implementation
 procedure Activar (var A:tipoarchivo; ruta:string; archivo:string);
 BEGIN
 
-  ASSIGN(A,RUTA+ARCHIVO);
+  ASSIGNFILE(A,RUTA+ARCHIVO);
   {$I-}
    RESET(A);
   {$I+}
   IF IORESULT <> 0
   THEN
       BEGIN
-          REset(A); //Creo el archivo
-          CLOSE(A);   //Lo cierro
+          REWRITE(A); //Creo el archivo
+          CLOSEFILE(A);   //Lo cierro
           RESET(A);   //Lo vuelvo abrir
       END;
 
@@ -58,8 +58,6 @@ procedure CerrarArchivo(var A:tipoArchivo);
 BEGIN
   CLOSE(A);
 END;
-
-
 
 function Posicion(Clave:integer; var A:tipoarchivo):integer;
   VAR

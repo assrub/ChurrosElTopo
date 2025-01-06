@@ -1,7 +1,7 @@
 object Form3: TForm3
-  Left = 1070
-  Top = 13
-  Width = 1305
+  Left = 143
+  Top = 211
+  Width = 1300
   Height = 734
   Caption = 'Form3'
   Color = clBackground
@@ -11,12 +11,13 @@ object Form3: TForm3
   Font.Name = 'Lithos Pro Regular'
   Font.Style = []
   OldCreateOrder = False
+  Position = poDesktopCenter
   PixelsPerInch = 96
   TextHeight = 23
   object Label1: TLabel
     Left = 88
     Top = 40
-    Width = 118
+    Width = 113
     Height = 23
     Caption = 'OPERADOR'
     Font.Charset = ANSI_CHARSET
@@ -79,8 +80,8 @@ object Form3: TForm3
       6CD8ABB366CD8ABB366CD8ABB366CD8ABFFFD9}
   end
   object Image2: TImage
-    Left = 640
-    Top = 0
+    Left = 664
+    Top = 8
     Width = 721
     Height = 673
     Picture.Data = {
@@ -5518,16 +5519,6 @@ object Form3: TForm3
     Layout = blGlyphBottom
     Margin = 0
   end
-  object Panel1: TPanel
-    Left = 0
-    Top = 673
-    Width = 1361
-    Height = 121
-    Align = alBottom
-    Caption = 'Panel1'
-    Color = clBlack
-    TabOrder = 0
-  end
   object BitBtn1: TBitBtn
     Left = 208
     Top = 600
@@ -5539,7 +5530,7 @@ object Form3: TForm3
     Font.Name = 'MS Sans Serif'
     Font.Style = []
     ParentFont = False
-    TabOrder = 1
+    TabOrder = 0
     Kind = bkRetry
   end
   object BitBtn2: TBitBtn
@@ -5553,8 +5544,9 @@ object Form3: TForm3
     Font.Name = 'MS Sans Serif'
     Font.Style = []
     ParentFont = False
-    TabOrder = 2
-    Kind = bkClose
+    TabOrder = 1
+    OnClick = BitBtn2Click
+    Kind = bkAbort
     Layout = blGlyphRight
   end
 end

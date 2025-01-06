@@ -9,15 +9,22 @@ type
   tipoRegUsuario=record
                 usuario: string[20];
                 nombreApellido: string[32];
-                dni: integer;
+                dni: string[20];
                 password: string[20];
                 descripcion: string[255];
-                perfil: integer;
                 borrado: boolean;
                 clave:integer;
+                Fecha:TDateTime;
+                Acc_Alta_Usuario:boolean;
+                Acc_Gastos:boolean;
+                Acc_Ventas:boolean;
+                Acc_Mod_Precios:boolean;
+                Acc_Historial:boolean;
+                Acc_Status:boolean;
                 end;
 var
    R: tipoRegUsuario;
+   B: tipoRegUsuario;
 
    
 implementation

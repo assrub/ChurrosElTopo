@@ -1,0 +1,13 @@
+program GastosProject;
+
+uses
+  Forms,
+  Gastos in 'Gastos.pas' {FrmGastos};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TFrmGastos, FrmGastos);
+  Application.Run;
+end.

@@ -1,0 +1,14 @@
+program proyectohistorial;
+
+uses
+  Forms,
+  Historial in 'Historial.pas' {FormHistorial},
+  LibGastos in '..\..\FyP\gastos\LibGastos.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TFormHistorial, FormHistorial);
+  Application.Run;
+end.

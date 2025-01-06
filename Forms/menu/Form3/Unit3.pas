@@ -12,9 +12,9 @@ type
     Image1: TImage;
     Image2: TImage;
     SpeedButton1: TSpeedButton;
-    Panel1: TPanel;
     BitBtn1: TBitBtn;
     BitBtn2: TBitBtn;
+    procedure BitBtn2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -26,7 +26,15 @@ var
 
 implementation
 
+uses Unit1, Unit2;
+
 {$R *.dfm}
+
+procedure TForm3.BitBtn2Click(Sender: TObject);
+begin
+form1.close;
+
+end;
 
 end.
  
